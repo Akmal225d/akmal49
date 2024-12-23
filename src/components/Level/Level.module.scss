@@ -1,0 +1,33 @@
+.wrap {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin: 100px 0;
+    place-items: center;
+}
+.level {
+    background-image: url(/lines.svg);
+    background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+
+}
+.card {
+    color: #fff;
+    p {
+        font-size: 24px;
+    }
+    h2 {
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 50%;
+        color: #fff;
+        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+        font-size: 64px;
+        color: #343045;
+    }
+}
